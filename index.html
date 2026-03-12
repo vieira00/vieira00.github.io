@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Vieira | Desenvolvimento Web Moderno</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfólio de Matheus Vieira, Desenvolvedor Web focado em criar experiências digitais premium e performáticas.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar glass">
+        <div class="nav-content container">
+            <a href="#" class="logo">Vieira<span>.dev</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato" class="btn-primary">Contato</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Abrir menu">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="hero-content container">
+                <span class="badge fade-up">👋 Olá, eu sou</span>
+                <h1 class="fade-up delay-1">Matheus Vieira</h1>
+                <h2 class="fade-up delay-2">Desenvolvedor Web <span class="gradient-text">Focado em Experiências Únicas.</span></h2>
+                <p class="fade-up delay-3">Transformo ideias em experiências digitais excepcionais. Especializado em construir aplicações performáticas e designs premium.</p>
+                <div class="hero-actions fade-up delay-4">
+                    <a href="#projetos" class="btn-primary btn-large">Ver meus projetos <i class="ph ph-arrow-right"></i></a>
+                    <a href="https://github.com/vieira00" target="_blank" class="btn-secondary btn-icon-only" aria-label="GitHub">
+                        <i class="ph ph-github-logo"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+        </section>
+
+        <!-- Sobre Mim Section -->
+        <section id="sobre" class="sobre section">
+            <div class="container">
+                <h2 class="section-title reveal">Sobre Mim</h2>
+                <div class="sobre-grid">
+                    <div class="sobre-text reveal">
+                        <p>Sou um desenvolvedor apaixonado por criar interfaces bonitas, modernas e altamente funcionais. Tenho forte foco em escrever um código limpo e utilizar as melhores práticas do ecossistema web atual.</p>
+                        <p>Minha jornada me levou a trabalhar com tecnologias como <strong>React, Next.js, HTML/CSS/JS moderno</strong> e muito mais.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge"><i class="ph ph-file-html"></i> HTML5</span>
+                            <span class="tech-badge"><i class="ph ph-file-css"></i> CSS3 / SCSS</span>
+                            <span class="tech-badge"><i class="ph ph-file-js"></i> JavaScript</span>
+                            <span class="tech-badge"><i class="ph ph-atom"></i> React JS</span>
+                            <span class="tech-badge"><i class="ph ph-frame-corners"></i> Next.js</span>
+                            <span class="tech-badge"><i class="ph ph-git-branch"></i> Git / GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos Section -->
+        <section id="projetos" class="projetos section">
+            <div class="container">
+                <h2 class="section-title reveal">Projetos em Destaque</h2>
+                <div class="projetos-grid">
+                    <!-- Projeto 1 (Nutralencar ex.) -->
+                    <article class="projeto-card reveal">
+                        <div class="projeto-img-wrapper">
+                            <div class="projeto-placeholder gradient-1"></div>
+                        </div>
+                        <div class="projeto-info">
+                            <h3>Nutralencar E-commerce</h3>
+                            <p>Plataforma de e-commerce moderna com foco em performance e conversão usando tech stack premium.</p>
+                            <div class="projeto-tags">
+                                <span>Next.js</span>
+                                <span>SCSS</span>
+                                <span>React</span>
+                            </div>
+                            <div class="projeto-links">
+                                <a href="#" class="btn-link">Ver Código <i class="ph ph-github-logo"></i></a>
+                                <a href="#" class="btn-link">Acessar Demo <i class="ph ph-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Projeto 2 -->
+                    <article class="projeto-card reveal delay-1">
+                        <div class="projeto-img-wrapper">
+                            <div class="projeto-placeholder gradient-2"></div>
+                        </div>
+                        <div class="projeto-info">
+                            <h3>Projeto XYZ</h3>
+                            <p>Descrição breve do projeto destacando o problema resolvido e as tecnologias utilizadas na solução.</p>
+                            <div class="projeto-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                            <div class="projeto-links">
+                                <a href="#" class="btn-link">Ver Código <i class="ph ph-github-logo"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato Section -->
+        <section id="contato" class="contato section">
+            <div class="container text-center reveal">
+                <h2 class="section-title">Vamos Trabalhar Juntos?</h2>
+                <p>Estou sempre aberto a novas oportunidades e projetos interessantes. Sinta-se à vontade para entrar em contato comigo!</p>
+                <div class="contato-actions">
+                    <a href="mailto:seu-email@exemplo.com" class="btn-primary btn-large">
+                        <i class="ph ph-envelope-simple"></i> Enviar Email
+                    </a>
+                    <a href="https://linkedin.com/in/seu-linkedin" target="_blank" class="btn-secondary btn-large">
+                        <i class="ph ph-linkedin-logo"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Matheus Vieira. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="https://github.com/vieira00" target="_blank" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+                <a href="https://linkedin.com/in/seu-linkedin" target="_blank" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
