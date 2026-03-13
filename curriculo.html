@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Matheus Vieira</title>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- CSS Específico do Currículo -->
+    <link rel="stylesheet" href="styles/curriculo.css">
+</head>
+<body>
+
+    <!-- Botão de impressão (Será escondido ao imprimir) -->
+    <div class="print-actions">
+        <a href="index.html" class="btn btn-outline"><i class="ph ph-arrow-left"></i> Voltar ao Portfólio</a>
+        <button onclick="window.print()" class="btn btn-primary"><i class="ph ph-printer"></i> Salvar PDF / Imprimir</button>
+    </div>
+
+    <div class="resume-container">
+        
+        <!-- Header -->
+        <header class="resume-header">
+            <div class="header-name">
+                <h1>Matheus Ricardo Padilha Vieira</h1>
+                <h2>Analista de Sistemas Multidisciplinar</h2>
+            </div>
+            <div class="header-contact">
+                <a href="mailto:seu-email@exemplo.com"><i class="ph ph-envelope-simple"></i> seu-email@exemplo.com</a>
+                <a href="https://linkedin.com/in/seu-linkedin" target="_blank"><i class="ph ph-linkedin-logo"></i> linkedin.com/in/seu-linkedin</a>
+                <a href="https://github.com/vieira00" target="_blank"><i class="ph ph-github-logo"></i> github.com/vieira00</a>
+                <span><i class="ph ph-phone"></i> (XX) XXXXX-XXXX</span>
+            </div>
+        </header>
+
+        <hr class="divider">
+
+        <!-- Executive Summary -->
+        <section class="resume-section">
+            <h3 class="section-title">Resumo Executivo</h3>
+            <p>Analista de Sistemas com perfil multidisciplinar, unindo a robustez técnica da infraestrutura e redes à sensibilidade do design centrado no usuário (UI/UX) e às possibilidades da Inteligência Artificial. Graduado em Análise e Desenvolvimento de Sistemas pelo UNIVAG, possuo sólida experiência no setor público, atuando na modernização de serviços tecnológicos e na garantia da conformidade de dados. Sou um profissional proativo, com alta capacidade de aprendizado e focado em converter complexidade técnica em soluções inteligentes e intuitivas.</p>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Experiência Profissional -->
+        <section class="resume-section">
+            <h3 class="section-title">Experiência Profissional</h3>
+            
+            <div class="experience-block">
+                <div class="experience-header">
+                    <div class="job-title-company">
+                        <h4>Analista de Sistemas (Residente Técnico)</h4>
+                        <span class="company">SEDEC/MT</span>
+                    </div>
+                    <span class="date">Novembro de 2024 – Presente</span>
+                </div>
+                <p class="role-desc">Atuação na Coordenadoria de Tecnologia da Informação da Secretaria de Estado de Desenvolvimento Econômico.</p>
+                <ul class="bullet-list">
+                    <li><strong>Infraestrutura e Redes:</strong> Configuração e administração de dispositivos de rede L2/L3, firewalls e controladores de acesso.</li>
+                    <li><strong>Servidores e Virtualização:</strong> Administração de servidores Linux (Samba AD, DNS, DHCP) e Windows (Active Directory, GPO).</li>
+                    <li><strong>Modernização de Ambientes:</strong> Implementação de containers com Docker e Kubernetes, além de gestão de alta disponibilidade (HA).</li>
+                    <li><strong>Desenvolvimento:</strong> Prática com linguagem Java e framework Spring Boot, além de interfaces web com HTML, CSS e JavaScript.</li>
+                </ul>
+            </div>
+
+            <div class="experience-block">
+                <div class="experience-header">
+                    <div class="job-title-company">
+                        <h4>Técnico de TI / Estagiário</h4>
+                        <span class="company">IFMT Campus Várzea Grande</span>
+                    </div>
+                    <span class="date">2023 – 2024 (2 anos)</span>
+                </div>
+                <p class="role-desc">Foco em governança de dados e suporte a projetos de TI no Instituto Federal de Mato Grosso.</p>
+                <ul class="bullet-list">
+                    <li><strong>Privacidade e LGPD:</strong> Gestão do Programa de Privacidade de Dados e elaboração de Relatórios de Impacto sobre Proteção de Dados (RIPD).</li>
+                    <li><strong>Auditoria e Normatização:</strong> Auditoria de mecanismos de controle sobre dados pessoais e criação de normas internas do setor.</li>
+                    <li><strong>Suporte e Projetos:</strong> Apoio operacional em projetos de TI e suporte de segundo nível cumprindo metas de SLA.</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Formação Acadêmica -->
+        <section class="resume-section">
+            <h3 class="section-title">Formação Acadêmica</h3>
+            
+            <div class="education-block">
+                <div class="education-info">
+                    <strong>Pós-Graduação em Inteligência Artificial</strong>
+                    <span>Especialização em modelos preditivos, automação e redes neurais</span>
+                </div>
+                <span class="date">Em andamento</span>
+            </div>
+
+            <div class="education-block">
+                <div class="education-info">
+                    <strong>Pós-Graduação em UI e UX</strong>
+                    <span>Especialização focada em experiência do usuário e interfaces de alto desempenho</span>
+                </div>
+            </div>
+
+            <div class="education-block">
+                <div class="education-info">
+                    <strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong>
+                    <span>Centro Universitário de Várzea Grande (UNIVAG)</span>
+                </div>
+                <span class="date">Fevereiro de 2024</span>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <div class="two-column-layout">
+            <!-- Competências Técnicas -->
+            <section class="resume-section column">
+                <h3 class="section-title">Competências Técnicas (Hard Skills)</h3>
+                
+                <div class="skills-block">
+                    <p><strong>Infraestrutura:</strong> Redes L2/L3, Firewalls, Docker, Kubernetes, Linux/Windows Servers.</p>
+                    <p><strong>Desenvolvimento:</strong> Java (Spring Boot), JavaScript, HTML5, CSS3.</p>
+                    <p><strong>Design & Futuro:</strong> UI/UX Design, Prototipagem, Machine Learning e Inteligência Artificial.</p>
+                    <p><strong>Compliance:</strong> LGPD, Auditoria de Dados e Segurança da Informação.</p>
+                </div>
+            </section>
+
+            <!-- Destaques IA -->
+            <section class="resume-section column">
+                <h3 class="section-title">Destaques em I.A.</h3>
+                
+                <ul class="bullet-list small-bullets">
+                    <li><strong>Automação Inteligente:</strong> Otimização de fluxos de suporte técnico.</li>
+                    <li><strong>Análise Preditiva:</strong> Identificação precoce de falhas de conectividade em redes.</li>
+                    <li><strong>IA Aplicada ao UX:</strong> Análise de comportamento e personalização de interfaces.</li>
+                </ul>
+            </section>
+        </div>
+
+    </div>
+</body>
+</html>
