@@ -905,6 +905,14 @@ img {
   }
   
   .hero-actions {
+    flex-direction: column;
+    width: 100%;
+    align-items: stretch;
+  }
+  
+  .hero-actions .btn-primary,
+  .hero-actions .btn-secondary {
+    width: 100%;
     justify-content: center;
   }
   
